@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Painting</string>
-
     <string name="action_clear">Clear</string>
+    <string name="action_draw_rectangle">Rect</string>
+    <string name="action_draw_lines">line</string>
+    <string name="action_draw_lines_two_fingers">Rectan2</string>
 </resources>

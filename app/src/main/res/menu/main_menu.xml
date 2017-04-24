@@ -5,4 +5,16 @@
         android:id="@+id/action_clear"
         android:showAsAction="always"
         android:title="@string/action_clear"/>
+    <item
+        android:id="@+id/action_drawrect"
+        android:showAsAction="always"
+        android:title="@string/action_draw_rectangle"/>
+    <item
+        android:id="@+id/action_drawrecttwofingers"
+        android:showAsAction="always"
+        android:title="@string/action_draw_lines_two_fingers"/>
+    <item
+        android:id="@+id/action_drawlines"
+        android:showAsAction="always"
+        android:title="@string/action_draw_lines"/>
 </menu>

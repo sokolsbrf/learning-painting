@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="ru.dimasokol.learning.painting.MainActivity">
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="ru.dimasokol.learning.painting.MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageButton
+                android:id="@+id/palette_brush"
+                android:layout_width="@dimen/palette_button_width"
+                android:layout_height="@dimen/palette_button_height"
+                android:src="@drawable/brush"/>
+
+        <ImageButton
+                android:id="@+id/palette_rectangle"
+                android:layout_width="@dimen/palette_button_width"
+                android:layout_height="@dimen/palette_button_height"
+                android:src="@drawable/rectangle"/>
+    </LinearLayout>
 
     <ru.dimasokol.learning.painting.PaintingView
-        android:id="@+id/painting"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+            android:id="@+id/painting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
-</FrameLayout>
+</LinearLayout>
